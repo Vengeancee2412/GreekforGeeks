@@ -1,0 +1,133 @@
+name: greek_for_geeks
+description: A Flutter app exploring Greek mythology.
+
+
+publish_to: 'none' # Remove this line if you intend to publish to pub.dev
+
+
+version: 1.0.0+1
+
+
+environment:
+  sdk: ">=3.0.6 <4.0.0"
+
+
+dependencies:
+  cached_network_image: ^3.3.1
+  cupertino_icons: ^1.0.6
+  flutter:
+    sdk: flutter
+  fluttericon: ^2.0.0
+  google_fonts: ^5.1.0
+  flutter_gif: ^0.0.4
+  # Add any other packages you may need here
+  # For example, you might want to add:
+  # http: ^0.14.0
+  # provider: ^5.0.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.3
+  lottie: ^3.3.1
+  video_player: ^2.9.5
+  very_good_analysis: ^5.1.0
+  gif: ^2.3.0
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "greek_logo.png"
+
+
+flutter:
+  uses-material-design: true
+
+
+  assets:
+    - images/appicon.jpg
+    - images/greek_logo.png
+    - images/homepage_lightmode.jpeg
+    - images/homepage_darkmode.jpeg
+    - images/character_resize.jpg
+    - images/story_resize.jpg
+    - images/quiz_resize.jpg
+    - images/greekbg.jpg
+    - videos/loadingscreen.mp4
+    - images/aguinaldo.JPG
+    - images/castro.JPG
+    - images/gayon.JPG
+    - images/maderas.JPG
+    - images/perez.JPG
+    - images/spacebackground.gif
+    - images/greekbgm.jpg
+    - images/quiz_background.JPG
+    - images/papyrus_texture.jpg
+    - images/greek_helmet.png
+    - images/wonderpets.png
+    # Gods
+    - images/zeus.jpg
+    - images/uncroppedzeus.jpg
+    - images/hera.jpg
+    - images/uncroppedposeidon.jpg
+    - images/poseidon.jpg
+    - images/uncroppeddemeter.jpg
+    - images/demeter.jpg
+    - images/uncroppedathena.jpg
+    - images/athena.jpg
+    - images/uncroppedapollo.jpg
+    - images/apollo.jpg
+    - images/uncroppedartemis.jpg
+    - images/artemis.jpg
+    - images/uncroppedares.jpg
+    - images/ares.jpg
+    - images/uncroppedaphrodite.jpg
+    - images/aphrodite.jpg
+    - images/uncroppedhephaestus.jpg
+    - images/hephaestus.jpg
+    - images/uncroppedhermes.jpg
+    - images/hermes.jpg
+    - images/uncroppedhestia.jpg
+    - images/hestia.jpg
+    - images/uncroppeddionysus.jpg
+    - images/dionysus.jpg
+    - images/uncroppedhera.jpg
+
+
+    #Chthonic and Primordial Deities:
+
+
+    - images/hades.jpg
+    - images/uncroppedhades.jpg
+    - images/persephone.jpg
+    - images/uncroppedpersephone.jpg
+    - images/gaia.jpg
+    - images/uncroppedgaia.jpg
+    - images/uranus.jpg
+    - images/uncroppeduranus.jpg
+
+
+    #Titans
+    - images/cronus.jpg
+    - images/uncroppedcronus.jpg
+    - images/rhea.jpg
+    - images/uncroppedrhea.jpg
+    - images/oceanus.jpg
+    - images/uncroppedoceanus.jpg
+    - images/hyperion.jpg
+    - images/uncroppedhyperion.jpg
+    - images/prometheus.jpg
+    - images/uncroppedprometheus.jpg
+
+
+
+
+  fonts:
+    - family: Cinzel
+      fonts:
+        - asset: fonts/Cinzel-Bold.ttf
+        - asset: fonts/Cinzel-Bold.ttf
+    - family: Didot
+      fonts:
+        - asset: fonts/Didot Title.otf
